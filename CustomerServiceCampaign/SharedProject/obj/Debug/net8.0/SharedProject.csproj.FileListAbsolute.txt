@@ -1,0 +1,11 @@
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\bin\Debug\net8.0\SharedProject.deps.json
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\bin\Debug\net8.0\SharedProject.dll
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\bin\Debug\net8.0\SharedProject.pdb
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.AssemblyInfoInputs.cache
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.AssemblyInfo.cs
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.csproj.CoreCompileInputs.cache
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.dll
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\refint\SharedProject.dll
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.pdb
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\ref\SharedProject.dll
