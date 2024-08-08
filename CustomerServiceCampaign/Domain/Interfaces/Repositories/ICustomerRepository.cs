@@ -9,11 +9,11 @@ namespace Domain.Interfaces.Repositories
 {
     public interface ICustomerRepository
     {
-        Task<IEnumerable<Customer>> GetAllAsync();
-        Task<Customer> GetByExternalIdAsync(int id);
-        Task<Customer> GetByIdAsync(int id);
-        Task AddAsync(Customer customer);
-        Task UpdateAsync(Customer customer);
-        Task DeleteAsync(int id);
+        Task<IEnumerable<Customer>> GetAllCustomersAsync();
+        Task<Customer> GetCustomerByExternalIdAsync(int id);
+        Task<Customer> GetCustomerByIdAsync(int id);
+        Task AddCustomerAsync(Customer customer);
+        Task UpdateCustomerAsync(Customer customer);
+        Task DeleteCustomerAsync(int id);
     }
 }

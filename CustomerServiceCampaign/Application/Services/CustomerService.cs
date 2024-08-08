@@ -16,12 +16,12 @@ namespace CustomerServiceCampaign.Services
 
         public async Task<IEnumerable<Customer>> GetCustomersAsync()
         {
-            return await _customerRepository.GetAllAsync();
+            return await _customerRepository.GetAllCustomersAsync();
         }
 
         public async Task<Customer> GetCustomerByIdAsync(int id)
         {
-            return await _customerRepository.GetByIdAsync(id);
+            return await _customerRepository.GetCustomerByIdAsync(id);
         }
 
         public async Task RewardCustomerAsync(CustomerDTO customerDTO)
@@ -53,17 +53,17 @@ namespace CustomerServiceCampaign.Services
                     ExternalId = customerDTO.ExternalId
                 };
 
-                var selectedCustomer = await _customerRepository.GetByExternalIdAsync(customer.ExternalId);
+                var selectedCustomer = await _customerRepository.GetCustomerByExternalIdAsync(customer.ExternalId);
 
                 if (selectedCustomer != null)
                 {
                     selectedCustomer.IsRewarded = true;
-                    await _customerRepository.UpdateAsync(selectedCustomer);
+                    await _customerRepository.UpdateCustomerAsync(selectedCustomer);
                 }
                 else
                 {
                     customer.IsRewarded = true;
-                    await _customerRepository.AddAsync(customer);
+                    await _customerRepository.AddCustomerAsync(customer);
                 }
             }
             catch (Exception ex)

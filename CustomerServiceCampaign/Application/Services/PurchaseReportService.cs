@@ -31,12 +31,12 @@ namespace Application.Services
 
                 foreach (var customer in customers)
                 {
-                    var existingCustomer = await _customerRepository.GetByExternalIdAsync(customer.ExternalId);
+                    var existingCustomer = await _customerRepository.GetCustomerByExternalIdAsync(customer.ExternalId);
 
                     if (existingCustomer == null)
                     {
                         customer.AddedInMerge = true;
-                        await _customerRepository.AddAsync(customer);
+                        await _customerRepository.AddCustomerAsync(customer);
                     }
 
                     //if (existingCustomer != null)
@@ -49,6 +49,24 @@ namespace Application.Services
                     //    await _customerRepository.AddAsync(record);
                     //}
                 }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public async Task<byte[]> GenerateCsvAsync()
+        {
+            try
+            {
+                var customers = await _customerRepository.GetAllCustomersAsync();
+
+
+                var fileBytes = await _csvHelper.GenerateCsvAsync((List<Customer>)customers);
+
+
+                return fileBytes;
             }
             catch (Exception ex)
             {

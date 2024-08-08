@@ -39,5 +39,20 @@ namespace CustomerServiceCampaign.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("GenerateCSVFile")]
+        public async Task<IActionResult> ExportCustomersToCsv()
+        {
+            try
+            {
+                var csvData = await _purchaseReportService.GenerateCsvAsync();
+
+                return File(csvData, "text/csv", "customers.csv");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }  
+        }
     }
 }

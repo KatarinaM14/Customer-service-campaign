@@ -27,5 +27,19 @@ namespace Infrastructure.Data.HelperClasses
 
             return customers;
         }
+
+        public async Task<byte[]> GenerateCsvAsync(List<Customer> customers)
+        {
+
+            using (var memoryStream = new MemoryStream())
+            using (var writer = new StreamWriter(memoryStream))
+            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+            {
+                csv.Context.RegisterClassMap<GenerateCustomerCSVMap>();
+                csv.WriteRecords(customers);
+                writer.Flush();
+                return memoryStream.ToArray();
+            }
+        }
     }
 }

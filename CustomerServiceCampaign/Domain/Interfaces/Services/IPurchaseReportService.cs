@@ -9,5 +9,7 @@ namespace Domain.Interfaces.Services
     public interface IPurchaseReportService
     {
         Task ProcessCsvReportAsync(string csvFilePath);
+
+        Task<byte[]> GenerateCsvAsync();
     }
 }
