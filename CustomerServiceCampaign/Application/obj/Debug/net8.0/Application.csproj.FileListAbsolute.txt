@@ -17,3 +17,4 @@ C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Applica
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Application\obj\Debug\net8.0\ref\Application.dll
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Application\bin\Debug\net8.0\SharedProject.dll
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Application\bin\Debug\net8.0\SharedProject.pdb
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Application\obj\Debug\net8.0\Application.sourcelink.json

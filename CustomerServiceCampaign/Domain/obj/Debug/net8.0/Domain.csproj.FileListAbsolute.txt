@@ -13,3 +13,4 @@ C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Domain\
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Domain\bin\Debug\net8.0\SharedProject.pdb
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Domain\obj\Debug\net8.0\Domain.sourcelink.json

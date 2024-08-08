@@ -21,5 +21,6 @@ namespace SharedProject.DTOs
         public int Age { get; set; }
         public bool IsRewarded { get; set; }
         public int ExternalId { get; set; }
+        public bool AddedInMerge { get; set; }
     }
 }

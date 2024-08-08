@@ -9,3 +9,4 @@ C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedP
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\refint\SharedProject.dll
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.pdb
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\ref\SharedProject.dll
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\SharedProject\obj\Debug\net8.0\SharedProject.sourcelink.json

@@ -1,3 +1,4 @@
+using Application.Services;
 using CustomerServiceCampaign.Services;
 using Domain.Interfaces.ExternalServices;
 using Domain.Interfaces.Repositories;
@@ -20,6 +21,7 @@ builder.Services.AddSwaggerGen();
 
 //Dependency Injection
 builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IPurchaseReportService, PurchaseReportService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 //Database setup

@@ -142,3 +142,5 @@ C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\Custome
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\CustomerServiceCampaign\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\CustomerServiceCampaign\bin\Debug\net8.0\SharedProject.dll
 C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\CustomerServiceCampaign\bin\Debug\net8.0\SharedProject.pdb
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\CustomerServiceCampaign\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\katar\OneDrive\Desktop\ZADATAK ZA POSAO\CustomerServiceCampaign\CustomerServiceCampaign\obj\Debug\net8.0\CustomerServiceCampaign.sourcelink.json
