@@ -17,8 +17,7 @@ namespace TelecommunicationCompany.Controllers
             _rewardService = rewardService;
         }
 
-        [HttpPost]
-        [Route("RewardCustomer")]
+        [HttpPost("RewardCustomer")]
         [Authorize(Roles = "Administrator,User")]
         public async Task<IActionResult> RewardCustomer([FromBody] RewardDto rewardDto)
         {
@@ -38,6 +37,22 @@ namespace TelecommunicationCompany.Controllers
                 {
                     return BadRequest("Daily reward limit exceeded for the agent.");
                 }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("GenerateCSVFile")]
+        [Authorize(Roles = "Administrator,User")]
+        public async Task<IActionResult> ExportCustomersToCsv()
+        {
+            try
+            {
+                var csvData = await _rewardService.GenerateCsvAsync();
+
+                return File(csvData, "text/csv", "rewards.csv");
             }
             catch (Exception ex)
             {

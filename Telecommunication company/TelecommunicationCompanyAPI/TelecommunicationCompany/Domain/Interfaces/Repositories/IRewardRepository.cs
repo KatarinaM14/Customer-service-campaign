@@ -9,6 +9,7 @@ namespace Domain.Interfaces.Repositories
 {
     public interface IRewardRepository
     {
+        Task<IEnumerable<Reward>> GetAllRewardsAsync();
         Task<Reward> GetRewardByIdAsync(int id);
         Task<IEnumerable<Reward>> GetRewardsByUserAsync(int userId, DateTime dateOfRewarding);
         Task AddRewardAsync(Reward reward);

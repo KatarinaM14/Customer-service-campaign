@@ -18,6 +18,13 @@ namespace Infrastructure.Repositories
             _context = context;
         }
 
+        public async Task<IEnumerable<Reward>> GetAllRewardsAsync()
+        {
+            return await _context.Rewards
+                    .Include(r => r.User)
+                    .ToListAsync(); 
+        }
+
         public async Task<Reward> GetRewardByIdAsync(int id)
         {
             return await _context.Rewards.FindAsync(id);
