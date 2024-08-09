@@ -48,6 +48,29 @@ builder.Services.AddSwaggerGen(c =>
                 });
 });
 
+builder.Services.AddCors(options => {
+    options.AddPolicy("Cors", builder => {
+
+        builder.WithOrigins(new string[]{
+                    "http://localhost:5500",
+                    "https://localhost:3000",
+                    "https://localhost:5500",
+                    "https://127.0.0.1:5500",
+                    "http://localhost:3000",
+                    "http://localhost:5100",
+                    "https://localhost:5100",
+                    "https://127.0.0.1:5100",
+
+                    "http://localhost:5173",
+                    "http://127.0.0.1:5173",
+
+                }).AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowCredentials();
+
+    });
+});
+
 //Dependency Injection
 builder.Services.AddScoped<IRewardService, RewardService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
@@ -103,6 +126,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("Cors");
 
 app.UseAuthorization();
 
