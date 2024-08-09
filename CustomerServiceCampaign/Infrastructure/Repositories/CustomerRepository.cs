@@ -39,6 +39,7 @@ namespace Infrastructure.Repositories
             return await _context.Customers
                             .Include(c => c.Home)
                             .Include(c => c.Office)
+                            .Include(c => c.FavoriteColors)
                             .FirstOrDefaultAsync(c => c.ExternalId == id);
         }
 

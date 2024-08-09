@@ -10,6 +10,8 @@ namespace Domain.Interfaces.Services
     {
         Task ProcessCsvReportAsync(string csvFilePath);
 
+        Task<byte[]> MergeDataAsync(string csvFilePath);
+
         Task<byte[]> GenerateCsvAsync();
     }
 }

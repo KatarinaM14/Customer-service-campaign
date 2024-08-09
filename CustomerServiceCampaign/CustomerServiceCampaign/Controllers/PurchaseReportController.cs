@@ -29,10 +29,40 @@ namespace CustomerServiceCampaign.Controllers
                 }
 
                 var filePath = Path.Combine(Path.GetTempPath(), file.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
 
                 await _purchaseReportService.ProcessCsvReportAsync(filePath);
 
                 return Ok("Report processed successfully.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost("MergeData")]
+        public async Task<IActionResult> MergeData(IFormFile file)
+        {
+            try
+            {
+                if (file == null || file.Length == 0)
+                {
+                    return BadRequest("No file uploaded.");
+                }
+
+                var filePath = Path.Combine(Path.GetTempPath(), file.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                var csvData = await _purchaseReportService.MergeDataAsync(filePath);
+
+                return File(csvData, "text/csv", "Merged data.csv");
             }
             catch (Exception ex)
             {

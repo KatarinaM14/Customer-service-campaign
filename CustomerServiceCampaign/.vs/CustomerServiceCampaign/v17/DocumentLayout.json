@@ -15,12 +15,56 @@
       "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\helperclasses\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\infrastructure\\data\\mappings\\generaterewardedcustomercsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generaterewardedcustomercsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\infrastructure\\data\\mappings\\generatefavoritecolorsdtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generatefavoritecolorsdtoconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\infrastructure\\data\\mappings\\generatefavoritecolorsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generatefavoritecolorsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\infrastructure\\data\\mappings\\rewarddtocsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\rewarddtocsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\infrastructure\\data\\mappings\\generatecustomercsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generatecustomercsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\sharedproject\\dtos\\rewardedcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\rewardedcustomerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\sharedproject\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\sharedproject\\dtos\\favoritecolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\favoritecolordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\sharedproject\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\domain\\models\\basemodels\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\basemodels\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\sharedproject\\dtos\\rewarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\rewarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\domain\\interfaces\\services\\ipurchasereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\services\\ipurchasereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{422AE154-458E-4684-8E82-5C36BCE39C81}|CustomerServiceCampaign\\CustomerServiceCampaign.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\customerservicecampaign\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,24 +115,12 @@
       "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\favoritecolorsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\infrastructure\\data\\mappings\\generatefavoritecolorsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C853965B-639C-49A5-93D4-55BA007761D8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generatefavoritecolorsconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\domain\\models\\basemodels\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\basemodels\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\domain\\models\\basemodels\\favoritecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\basemodels\\favoritecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\domain\\interfaces\\services\\ipurchasereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C929B5-8D40-4417-A1C6-36B9531F41CD}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\services\\ipurchasereportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\sharedproject\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98057C2E-98EB-4923-B8F0-17587F02E75F}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{422AE154-458E-4684-8E82-5C36BCE39C81}|CustomerServiceCampaign\\CustomerServiceCampaign.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\customerservicecampaign\\customerservicecampaign\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,21 +146,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PurchaseReportService.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Application\\Services\\PurchaseReportService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\PurchaseReportService.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Application\\Services\\PurchaseReportService.cs",
-              "RelativeToolTip": "Application\\Services\\PurchaseReportService.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAowEQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T22:46:00.634Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -137,22 +156,9 @@
               "RelativeDocumentMoniker": "Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
               "RelativeToolTip": "Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAAyAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAArwEUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T14:21:47.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenerateCustomerCSVMap.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T14:13:28.734Z",
               "EditorCaption": ""
             },
             {
@@ -163,27 +169,175 @@
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\Controllers\\PurchaseReportController.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\Controllers\\PurchaseReportController.cs",
               "RelativeToolTip": "CustomerServiceCampaign\\Controllers\\PurchaseReportController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAADgvyUAAAANAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAAwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T23:09:14.8Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAswDUAAAAuAAAA",
+              "DocumentIndex": 10,
+              "Title": "FavoriteColorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\FavoriteColorDTO.cs",
+              "RelativeDocumentMoniker": "SharedProject\\DTOs\\FavoriteColorDTO.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\FavoriteColorDTO.cs",
+              "RelativeToolTip": "SharedProject\\DTOs\\FavoriteColorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:19:07.353Z",
+              "WhenOpened": "2024-08-09T15:13:03.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RewardDtoCSVMap.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\RewardDtoCSVMap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\RewardDtoCSVMap.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\RewardDtoCSVMap.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Mappings\\RewardDtoCSVMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:49:56.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GenerateFavoriteColorsConverter.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:18:17.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenerateRewardedCustomerCSVMap.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateRewardedCustomerCSVMap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateRewardedCustomerCSVMap.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateRewardedCustomerCSVMap.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Mappings\\GenerateRewardedCustomerCSVMap.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwCYAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:23:47.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PurchaseReportService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Application\\Services\\PurchaseReportService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PurchaseReportService.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Application\\Services\\PurchaseReportService.cs",
+              "RelativeToolTip": "Application\\Services\\PurchaseReportService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAASwF0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T22:46:00.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateFavoriteColorsDtoConverter.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsDtoConverter.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsDtoConverter.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsDtoConverter.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsDtoConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:33:05.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "SharedProject\\DTOs\\AddressDTO.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\AddressDTO.cs",
+              "RelativeToolTip": "SharedProject\\DTOs\\AddressDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:12:48.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RewardedCustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\RewardedCustomerDto.cs",
+              "RelativeDocumentMoniker": "SharedProject\\DTOs\\RewardedCustomerDto.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\RewardedCustomerDto.cs",
+              "RelativeToolTip": "SharedProject\\DTOs\\RewardedCustomerDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:12:28.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenerateCustomerCSVMap.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Mappings\\GenerateCustomerCSVMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB4AAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T14:13:28.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAEwCQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:19:07.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Models\\BaseModels\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\BaseModels\\Customer.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Models\\BaseModels\\Customer.cs",
+              "RelativeToolTip": "Domain\\Models\\BaseModels\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T15:02:17.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RewardDto.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\RewardDto.cs",
+              "RelativeDocumentMoniker": "SharedProject\\DTOs\\RewardDto.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\RewardDto.cs",
+              "RelativeToolTip": "SharedProject\\DTOs\\RewardDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:46:34.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "SharedProject\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "SharedProject\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T20:22:48.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\Controllers\\CustomerController.cs",
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\Controllers\\CustomerController.cs",
@@ -196,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "UserExternalService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\ExternalServices\\UserExternalService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ExternalServices\\UserExternalService.cs",
@@ -208,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\Properties\\launchSettings.json",
@@ -220,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\appsettings.json",
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\appsettings.json",
@@ -232,7 +386,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
+              "Title": "IPurchaseReportService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T22:45:34.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\Program.cs",
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\Program.cs",
@@ -244,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Interfaces\\Repositories\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\ICustomerRepository.cs",
@@ -256,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Application\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\CustomerService.cs",
@@ -264,11 +430,12 @@
               "RelativeToolTip": "Application\\Services\\CustomerService.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAWwEgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:31:32.76Z"
+              "WhenOpened": "2024-08-07T19:31:32.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "IUserExternalService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Interfaces\\ExternalServices\\IUserExternalService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ExternalServices\\IUserExternalService.cs",
@@ -280,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "ICustomerService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Interfaces\\Services\\ICustomerService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Services\\ICustomerService.cs",
@@ -292,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
@@ -304,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "SOAPDemoUrlModel.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Models\\SOAPDemoUrlModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\SOAPDemoUrlModel.cs",
@@ -316,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "FavoriteColorsConverter.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\FavoriteColorsConverter.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\FavoriteColorsConverter.cs",
@@ -324,23 +491,12 @@
               "RelativeToolTip": "Infrastructure\\Data\\Mappings\\FavoriteColorsConverter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T08:36:36.808Z"
+              "WhenOpened": "2024-08-08T08:36:36.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GenerateFavoriteColorsConverter.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\Mappings\\GenerateFavoriteColorsConverter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T14:18:17.478Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Models\\BaseModels\\Address.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\BaseModels\\Address.cs",
@@ -352,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "20240808093105_AddingProperty-AddedInMerge.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Migrations\\20240808093105_AddingProperty-AddedInMerge.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240808093105_AddingProperty-AddedInMerge.cs",
@@ -364,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "FavoriteColor.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Models\\BaseModels\\FavoriteColor.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\BaseModels\\FavoriteColor.cs",
@@ -376,19 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IPurchaseReportService.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\Services\\IPurchaseReportService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T22:45:34.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "20240807215822_AddingProperty-ExternalId.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Migrations\\20240807215822_AddingProperty-ExternalId.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240807215822_AddingProperty-ExternalId.cs",
@@ -400,19 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CustomerDTO.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\CustomerDTO.cs",
-              "RelativeDocumentMoniker": "SharedProject\\DTOs\\CustomerDTO.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\SharedProject\\DTOs\\CustomerDTO.cs",
-              "RelativeToolTip": "SharedProject\\DTOs\\CustomerDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T20:22:48.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "20240807213435_UpdateInitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\Migrations\\20240807213435_UpdateInitialCreate.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240807213435_UpdateInitialCreate.cs",
@@ -424,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\Controllers\\WeatherForecastController.cs",

@@ -2,6 +2,7 @@
 using Domain.Interfaces.Services;
 using Domain.Models.BaseModels;
 using Infrastructure.Data.HelperClasses;
+using SharedProject.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Formats.Asn1;
@@ -26,7 +27,6 @@ namespace Application.Services
         {
             try
             {
-                
                 var customers = _csvHelper.ReadCustomers(csvFilePath);
 
                 foreach (var customer in customers)
@@ -36,19 +36,56 @@ namespace Application.Services
                     if (existingCustomer == null)
                     {
                         customer.AddedInMerge = true;
+                        customer.IsRewarded = true;
                         await _customerRepository.AddCustomerAsync(customer);
                     }
-
-                    //if (existingCustomer != null)
-                    //{
-                    //    existingCustomer.IsRewarded = true; 
-                    //    await _customerRepository.UpdateAsync(existingCustomer);
-                    //}
-                    //else
-                    //{
-                    //    await _customerRepository.AddAsync(record);
-                    //}
                 }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public async Task<byte[]> MergeDataAsync(string csvFilePath)
+        {
+            try
+            {
+                var rewardedCustomers = new List<RewardedCustomerDto>();
+
+                var rewards = _csvHelper.ReadRewardData(csvFilePath);
+
+                foreach (var reward in rewards)
+                {
+                    var existingCustomer = await _customerRepository.GetCustomerByExternalIdAsync(reward.CustomerId);
+
+                    if (existingCustomer != null)
+                    {
+                        var rewardedCustomer = new RewardedCustomerDto
+                        {
+                            Description = reward.Description,
+                            DiscountAmount = reward.DiscountAmount,
+                            CustomerId = reward.CustomerId,
+                            RewardingDate = reward.RewardingDate,
+                            AgentFirstName = reward.AgentFirstName,
+                            AgentLastName = reward.AgentLastName,
+                            Name = existingCustomer.Name,
+                            SSN = existingCustomer.SSN,
+                            DateOfBirth = existingCustomer.DateOfBirth,
+                            Age = existingCustomer.Age,
+                            IsRewarded = existingCustomer.IsRewarded,
+                            Home = new AddressDTO { City = existingCustomer.Home.City, State = existingCustomer.Home.State, Street = existingCustomer.Home.Street, Zip = existingCustomer.Home.Zip },
+                            Office = new AddressDTO { City = existingCustomer.Office.City, State = existingCustomer.Office.State, Street = existingCustomer.Office.Street, Zip = existingCustomer.Office.Zip },
+                            FavoriteColors = existingCustomer.FavoriteColors.Select(c => new FavoriteColorDTO { Color = c.Color }).ToList()
+                        };
+
+                        rewardedCustomers.Add(rewardedCustomer);
+                    }
+                }
+
+                var fileBytes = await _csvHelper.GenerateMergedDataCsvAsync(rewardedCustomers);
+
+                return fileBytes;
             }
             catch (Exception ex)
             {
@@ -62,9 +99,7 @@ namespace Application.Services
             {
                 var customers = await _customerRepository.GetAllCustomersAsync();
 
-
                 var fileBytes = await _csvHelper.GenerateCsvAsync((List<Customer>)customers);
-
 
                 return fileBytes;
             }

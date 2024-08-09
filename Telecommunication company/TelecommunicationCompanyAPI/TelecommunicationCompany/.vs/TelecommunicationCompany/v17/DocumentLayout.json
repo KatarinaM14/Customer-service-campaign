@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|solutionrelative:telecommunicationcompany\\controllers\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|solutionrelative:telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\data\\mappings\\generaterewardcsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generaterewardcsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\helperclasses\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|solutionrelative:telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\data\\mappings\\generaterewardcsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generaterewardcsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\domain\\models\\basemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +29,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\domain\\models\\basemodels\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|solutionrelative:domain\\models\\basemodels\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\domain\\interfaces\\repositories\\irewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,84 +126,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Reward.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Models\\BaseModels\\Reward.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\BaseModels\\Reward.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Models\\BaseModels\\Reward.cs",
               "RelativeToolTip": "Domain\\Models\\BaseModels\\Reward.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T15:56:48.879Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Models\\BaseModels\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\BaseModels\\User.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Models\\BaseModels\\User.cs",
               "RelativeToolTip": "Domain\\Models\\BaseModels\\User.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBIAAAAeAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T15:53:30.006Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CSVHelper.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
-              "RelativeToolTip": "Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAADwvx0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T14:04:48.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "GenerateRewardCSVMap.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\Mappings\\GenerateRewardCSVMap.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateRewardCSVMap.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\Mappings\\GenerateRewardCSVMap.cs",
               "RelativeToolTip": "Infrastructure\\Data\\Mappings\\GenerateRewardCSVMap.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA3AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T14:08:32.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "RewardService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\RewardService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\RewardService.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\RewardService.cs",
               "RelativeToolTip": "Application\\Services\\RewardService.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAawFUAAAAIAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAlwFUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T12:08:00.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "TelecommunicationCompany\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\AuthController.cs",
               "RelativeToolTip": "TelecommunicationCompany\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAawDYAAAAMAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAlwDYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T09:45:08.934Z",
               "EditorCaption": ""
@@ -216,14 +201,27 @@
               "RelativeDocumentMoniker": "TelecommunicationCompany\\Controllers\\RewardController.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\RewardController.cs",
               "RelativeToolTip": "TelecommunicationCompany\\Controllers\\RewardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAPAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAlwDYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T19:26:30.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "CSVHelper.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAlwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T14:04:48.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RewardRepository.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\RewardRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RewardRepository.cs",
@@ -231,12 +229,11 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\RewardRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:21:51.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T18:21:51.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
@@ -244,8 +241,7 @@
               "RelativeToolTip": "Application\\Services\\AuthService.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAlwGIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T20:31:46.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T20:31:46.651Z"
             },
             {
               "$type": "Document",
@@ -257,8 +253,7 @@
               "RelativeToolTip": "TelecommunicationCompany\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T20:53:51.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T20:53:51.431Z"
             },
             {
               "$type": "Document",
@@ -270,8 +265,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Repositories\\IRewardRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:21:07.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T18:21:07.311Z"
             },
             {
               "$type": "Document",
@@ -283,8 +277,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Services\\IRewardService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:32:48.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T18:32:48.027Z"
             },
             {
               "$type": "Document",
@@ -309,8 +302,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\20240809123203_UpdateModels.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T12:32:03.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T12:32:03.266Z"
             },
             {
               "$type": "Document",
@@ -322,8 +314,7 @@
               "RelativeToolTip": "Infrastructure\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T15:38:04.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T15:38:04.792Z"
             },
             {
               "$type": "Document",
@@ -335,8 +326,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Services\\ICurrentUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T10:24:42.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T10:24:42.501Z"
             },
             {
               "$type": "Document",
@@ -348,8 +338,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Services\\IAuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T20:22:13.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T20:22:13.68Z"
             },
             {
               "$type": "Document",
@@ -361,8 +350,7 @@
               "RelativeToolTip": "Application\\Services\\CurrentUserService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAcwB0AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T10:25:33.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T10:25:33.142Z"
             },
             {
               "$type": "Document",
@@ -374,8 +362,7 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAgwBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:22:06.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T18:22:06.886Z"
             },
             {
               "$type": "Document",
@@ -387,8 +374,7 @@
               "RelativeToolTip": "Application\\DTOs\\RewardDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T19:30:30.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T19:30:30.181Z"
             },
             {
               "$type": "Document",
@@ -400,8 +386,7 @@
               "RelativeToolTip": "SharedProject\\DTOs\\UserDto.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAIBJwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T07:30:24.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T07:30:24.638Z"
             },
             {
               "$type": "Document",
@@ -413,8 +398,7 @@
               "RelativeToolTip": "TelecommunicationCompany\\Program.cs",
               "ViewState": "AQIAAFQAAAAAAAAAAIBJwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T10:45:22.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T10:45:22.265Z"
             },
             {
               "$type": "Document",
@@ -426,8 +410,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\Repositories\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:20:35.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T18:20:35.682Z"
             },
             {
               "$type": "Document",
@@ -439,8 +422,7 @@
               "RelativeToolTip": "SharedProject\\DTOs\\AuthResponseDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T09:39:00.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T09:39:00.335Z"
             },
             {
               "$type": "Document",
@@ -452,8 +434,7 @@
               "RelativeToolTip": "Infrastructure\\Identity\\IdentityServiceCollectionExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T21:36:51.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T21:36:51.154Z"
             },
             {
               "$type": "Document",
@@ -465,8 +446,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\ExternalServices\\ICustomerCampaignExternalService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T19:06:42.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T19:06:42.242Z"
             },
             {
               "$type": "Document",
@@ -478,8 +458,7 @@
               "RelativeToolTip": "Domain\\Models\\CustomerServiceCampaignUrlModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T16:09:51.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T16:09:51.652Z"
             },
             {
               "$type": "Document",
@@ -491,8 +470,7 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\20240808174436_InitialCreate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T17:44:37.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T17:44:37.03Z"
             },
             {
               "$type": "Document",
@@ -504,8 +482,7 @@
               "RelativeToolTip": "TelecommunicationCompany\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-08T16:03:06.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T16:03:06.555Z"
             }
           ]
         }
