@@ -63,13 +63,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("TelecommunicationCompanyDB")));
 
 //External service
-builder.Services.AddHttpClient<ICustomerCampaignExternalService, CustomerCampaignExternalService>();
+builder.Services.AddHttpClient<ICustomerCampaignExternalService, CustomerCampaignExternalService>(client =>
+{
+    client.DefaultRequestHeaders.Add("X-Integration-Api-Key", builder.Configuration["ApiKeys:CustomerServiceCampaignApiKey"]);
+});
 builder.Services.AddHttpContextAccessor();
-
-//// Identity Services
-//builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-//    .AddEntityFrameworkStores<ApplicationDbContext>()
-//    .AddDefaultTokenProviders();
 
 // JWT Authentication
 builder.Services.AddAuthentication(options =>
@@ -91,13 +89,8 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-// Authorization Policies
+// Authorization 
 builder.Services.AddAuthorization();
-//builder.Services.AddAuthorization(options =>
-//{
-//    options.AddPolicy("AdminPolicy", policy =>
-//        policy.RequireRole("Admin"));
-//});
 
 
 var app = builder.Build();

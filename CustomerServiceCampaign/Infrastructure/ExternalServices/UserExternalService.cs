@@ -81,13 +81,17 @@ namespace Infrastructure.ExternalServices
                         customerDto.OfficeId = officeDTO.Id;
 
                         customerDto.FavoriteColors =new List<FavoriteColorDTO>();
-                        foreach (var favoriteColor in favoriteColors)
+
+                        if(favoriteColors != null)
                         {
-                            var favColor = new FavoriteColorDTO
+                            foreach (var favoriteColor in favoriteColors)
                             {
-                                Color = favoriteColor
-                            };
-                            customerDto.FavoriteColors.Add(favColor);
+                                var favColor = new FavoriteColorDTO
+                                {
+                                    Color = favoriteColor
+                                };
+                                customerDto.FavoriteColors.Add(favColor);
+                            }
                         }
                     }
                 }

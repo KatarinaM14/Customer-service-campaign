@@ -25,7 +25,7 @@ namespace CustomerServiceCampaign.Controllers
             return Ok(customers);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("GetCustomerById/{id}")]
         public async Task<IActionResult> GetCustomerById(int id)
         {
             var customer = await _customerService.GetCustomerByIdAsync(id);

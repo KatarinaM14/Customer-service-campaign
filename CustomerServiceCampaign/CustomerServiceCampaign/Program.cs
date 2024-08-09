@@ -1,4 +1,5 @@
 using Application.Services;
+using CustomerServiceCampaign.Middleware;
 using CustomerServiceCampaign.Services;
 using Domain.Interfaces.ExternalServices;
 using Domain.Interfaces.Repositories;
@@ -47,6 +48,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ApiKeyMiddleware>();
 
 app.MapControllers();
 
