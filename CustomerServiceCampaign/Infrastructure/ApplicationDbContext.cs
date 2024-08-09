@@ -29,13 +29,13 @@ namespace Infrastructure
                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Customer>()
-               .HasOne(office => office.Office)
+               .HasOne(c => c.Office)
                .WithMany()
                .HasForeignKey(c => c.OfficeId)
                .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Customer>()
-               .HasMany(color => color.FavoriteColors)
+               .HasMany(c => c.FavoriteColors)
                .WithOne();
 
             base.OnModelCreating(modelBuilder);

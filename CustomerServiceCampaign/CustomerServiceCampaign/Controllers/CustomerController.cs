@@ -36,8 +36,8 @@ namespace CustomerServiceCampaign.Controllers
             return Ok(customer);
         }
 
-        [HttpPost("RewardCustomer/{id}")]
-        public async Task<IActionResult> RewardCustomer(int id)
+        [HttpPost("RewardCustomer")]
+        public async Task<IActionResult> RewardCustomer([FromBody] int id)
         {
             try
             {

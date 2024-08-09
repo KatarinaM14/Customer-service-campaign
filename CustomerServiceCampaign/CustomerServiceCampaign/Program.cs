@@ -21,11 +21,13 @@ builder.Services.AddSwaggerGen();
 
 //Dependency Injection
 builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IUserExternalService, UserExternalService>();
 builder.Services.AddScoped<IPurchaseReportService, PurchaseReportService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
-//Database setup
 builder.Services.Configure<SOAPDemoUrlModel>(builder.Configuration.GetSection("SOAPDemoAppUrl"));
+
+//Database setup
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("CustomerServiceCampaignDB")));
 
