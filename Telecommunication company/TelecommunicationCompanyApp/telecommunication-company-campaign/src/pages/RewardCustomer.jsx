@@ -15,6 +15,7 @@ import { useUser } from '../context/UserContext';
 import Input from '@mui/joy/Input';
 import {rewardCustomer} from '../api/apiService'
 import { Grid } from '@mui/material';
+import { logout } from '../api/apiService'
 
 
 const RewardField = ({title, ...rest}) => (
@@ -27,25 +28,17 @@ const RewardField = ({title, ...rest}) => (
 export default function RewardCustomer() {
 
 	const navigate = useNavigate();
-	const { user } = useUser();
-
-	console.log(user)
+	const { user, setUser } = useUser();
+	
 	const reward = {
 		customerId: 0,
 		userId: user.userData.id,
 		description: '',
 		discountAmount: 0
 	};
-
-	const [rewardedCustomer, setRewardedCustomer] = useState(reward);
-
-	const [successOpen, setSuccessOpen] = React.useState(false);
-	const [successMessage, setSuccessMessage] = React.useState('');
-	const [open, setOpen] = React.useState(false);
-	const [message, setMessage] = React.useState('');
-
 	
-
+	const [rewardedCustomer, setRewardedCustomer] = useState(reward);
+	
 	const handleFieldChange = (event) => {
     	setRewardedCustomer({
       ...rewardedCustomer,
@@ -55,19 +48,19 @@ export default function RewardCustomer() {
 
   const submitRewardCustomer = () => {
 	try {
-		console.log(rewardedCustomer)
-		console.log(user?.token)
 		const data = rewardCustomer(rewardedCustomer,user?.token).then((res) =>{
-			console.log(res)
 			setRewardedCustomer(reward)
-			setSuccessOpen(true);
-			setSuccessMessage(res);
 		}); 
 	}catch (e) {
-      setMessage('Failed to reward customer: ' + e.message);
-      setOpen(true);
+      alert('Failed to reward customer: ' + e.message);
     }
   };
+
+  const onLogOut = async () => {
+	  	await logout(user?.token);
+	  	setUser(null);
+		navigate('/login');
+	}
 
 	return (
 		<CssVarsProvider>
@@ -75,7 +68,7 @@ export default function RewardCustomer() {
 			<Box
 				component="main"
 				sx={{
-					height: 'calc(100vh - 55px)', 
+					height: '100vh', 
 					display: 'grid',
 					gridTemplateColumns: { xs: 'auto', md: '100%' },
 					gridTemplateRows: 'auto 1fr auto',
@@ -84,10 +77,16 @@ export default function RewardCustomer() {
 				<Stack
 					spacing={2}
 					sx={{ px: { xs: 2, md: 4 }, pt: 2, minHeight: 0 }}
-					height="100%"
+					height= '100vh'
+					marginTop={'50px'}
 				>
-					<Stack direction="column" spacing={2} paddingTop={3}>
-						<Stack direction="column" spacing={1}>
+					<Stack width={'90%'} alignItems={'flex-end'} >
+						<Button onClick={()=>onLogOut()}>
+								Log out
+							</Button>
+					</Stack>
+					<Stack direction="column" spacing={2} paddingTop={3} alignItems={'center'}>
+						<Stack direction="column" spacing={1} width={'30%'} justifyContent={'center'}>
 							<RewardField id="description" name="description" title="Description" value={rewardedCustomer?.description}  onChange={handleFieldChange}/>
 							<RewardField id="discountAmount" name="discountAmount" title="Discount amount" value={rewardedCustomer?.discountAmount}  onChange={handleFieldChange}/>
 							<RewardField id="customerId" name="customerId" title="Customer Id" value={rewardedCustomer?.customerId}  onChange={handleFieldChange}/>					

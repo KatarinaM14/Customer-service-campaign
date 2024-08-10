@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|solutionrelative:telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\externalservices\\customercampaignexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\externalservices\\customercampaignexternalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +23,24 @@
       "RelativeMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|solutionrelative:telecommunicationcompany\\controllers\\rewardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|solutionrelative:telecommunicationcompany\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\domain\\models\\basemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|solutionrelative:domain\\models\\basemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F956763-27B8-4C72-BECC-75A6CA50FB38}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\sharedproject\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F956763-27B8-4C72-BECC-75A6CA50FB38}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\telecommunicationcompany\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,14 +51,6 @@
       "RelativeMoniker": "D:0:0:{3F956763-27B8-4C72-BECC-75A6CA50FB38}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F956763-27B8-4C72-BECC-75A6CA50FB38}|SharedProject\\SharedProject.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\sharedproject\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F956763-27B8-4C72-BECC-75A6CA50FB38}|SharedProject\\SharedProject.csproj|solutionrelative:sharedproject\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\domain\\models\\basemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|solutionrelative:domain\\models\\basemodels\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\telecommunicationcompany\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F37F4898-6CB6-4E7F-8E98-386C7E6B80CB}|TelecommunicationCompany\\TelecommunicationCompany.csproj|solutionrelative:telecommunicationcompany\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -39,24 +59,12 @@
       "RelativeMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|solutionrelative:domain\\models\\basemodels\\reward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\rewardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\data\\helperclasses\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\helperclasses\\csvhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\data\\mappings\\generaterewardcsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\mappings\\generaterewardcsvmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\rewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\domain\\interfaces\\repositories\\irewardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\dtos\\rewarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\dtos\\rewarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B96E5B1-D10F-4A87-A5E8-EC8961D06016}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\application\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8D4EE4A-BC87-4A14-A71F-3F2492FA972D}|Application\\Application.csproj|solutionrelative:application\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B12C7949-F580-46C5-959F-2319E96AB317}|Domain\\Domain.csproj|c:\\users\\katar\\onedrive\\desktop\\zadatak za posao\\telecommunication company\\telecommunicationcompanyapi\\telecommunicationcompany\\domain\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,11 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Reward.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Models\\BaseModels\\Reward.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\BaseModels\\Reward.cs",
@@ -149,10 +149,36 @@
               "RelativeDocumentMoniker": "Domain\\Models\\BaseModels\\User.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Models\\BaseModels\\User.cs",
               "RelativeToolTip": "Domain\\Models\\BaseModels\\User.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBQAAAAoAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-08T15:53:30.006Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RewardService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\RewardService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\RewardService.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\RewardService.cs",
+              "RelativeToolTip": "Application\\Services\\RewardService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:08:00.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:22:06.886Z",
               "EditorCaption": ""
             },
             {
@@ -163,27 +189,92 @@
               "RelativeDocumentMoniker": "TelecommunicationCompany\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\AuthController.cs",
               "RelativeToolTip": "TelecommunicationCompany\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAawDYAAAAMAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAAFoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T09:45:08.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "RewardController.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\RewardController.cs",
+              "RelativeDocumentMoniker": "TelecommunicationCompany\\Controllers\\RewardController.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\RewardController.cs",
+              "RelativeToolTip": "TelecommunicationCompany\\Controllers\\RewardController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:26:30.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AuthResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\SharedProject\\DTOs\\AuthResponseDto.cs",
               "RelativeDocumentMoniker": "SharedProject\\DTOs\\AuthResponseDto.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\SharedProject\\DTOs\\AuthResponseDto.cs",
               "RelativeToolTip": "SharedProject\\DTOs\\AuthResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T09:39:00.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "Application\\Services\\AuthService.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAgwE0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T20:31:46.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RewardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\RewardRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RewardRepository.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\RewardRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\RewardRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIA3wB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T18:21:51.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerCampaignExternalService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
+              "RelativeToolTip": "Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAxwBoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T19:08:39.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CurrentUserService.cs",
+              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\CurrentUserService.cs",
+              "RelativeToolTip": "Application\\Services\\CurrentUserService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA1wCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T10:25:33.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\SharedProject\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "SharedProject\\DTOs\\UserDto.cs",
@@ -191,38 +282,11 @@
               "RelativeToolTip": "SharedProject\\DTOs\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T07:30:24.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T07:30:24.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RewardController.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\RewardController.cs",
-              "RelativeDocumentMoniker": "TelecommunicationCompany\\Controllers\\RewardController.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Controllers\\RewardController.cs",
-              "RelativeToolTip": "TelecommunicationCompany\\Controllers\\RewardController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB0AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T19:26:30.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerCampaignExternalService.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
-              "RelativeToolTip": "Infrastructure\\ExternalServices\\CustomerCampaignExternalService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAiwBoAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T19:08:39.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\Program.cs",
               "RelativeDocumentMoniker": "TelecommunicationCompany\\Program.cs",
@@ -230,12 +294,11 @@
               "RelativeToolTip": "TelecommunicationCompany\\Program.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAQwEAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T10:45:22.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-09T10:45:22.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\TelecommunicationCompany\\appsettings.json",
               "RelativeDocumentMoniker": "TelecommunicationCompany\\appsettings.json",
@@ -247,19 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RewardService.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\RewardService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\RewardService.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\RewardService.cs",
-              "RelativeToolTip": "Application\\Services\\RewardService.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAlwEMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T12:08:00.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "CSVHelper.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\HelperClasses\\CSVHelper.cs",
@@ -271,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GenerateRewardCSVMap.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Data\\Mappings\\GenerateRewardCSVMap.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Mappings\\GenerateRewardCSVMap.cs",
@@ -283,31 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RewardRepository.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\RewardRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\RewardRepository.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\RewardRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\RewardRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:21:51.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "Application\\Services\\AuthService.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAlwGIAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T20:31:46.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IRewardRepository.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Interfaces\\Repositories\\IRewardRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Repositories\\IRewardRepository.cs",
@@ -319,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IRewardService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Interfaces\\Services\\IRewardService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Services\\IRewardService.cs",
@@ -343,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
@@ -355,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Interfaces\\Services\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Services\\ICurrentUserService.cs",
@@ -367,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Domain\\Interfaces\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\Services\\IAuthService.cs",
@@ -380,30 +407,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "CurrentUserService.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\CurrentUserService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\CurrentUserService.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\Services\\CurrentUserService.cs",
-              "RelativeToolTip": "Application\\Services\\CurrentUserService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAcwB0AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T10:25:33.142Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T18:22:06.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "RewardDto.cs",
               "DocumentMoniker": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\Telecommunication company\\TelecommunicationCompanyAPI\\TelecommunicationCompany\\Application\\DTOs\\RewardDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\RewardDto.cs",

@@ -18,12 +18,9 @@ import Snackbar from '@mui/material/Snackbar';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-//import { UserContext } from './context/UserContext';
 import { login } from '../api/apiService';
 import { useUser } from '../context/UserContext';
 
-
-// TODO remove, this demo shouldn't need to reset the theme.
 
 const defaultTheme = createTheme();
 
@@ -49,8 +46,6 @@ export default function SignInSide() {
     const username = data.get('username');
     const password = data.get('password');
  
-    console.log(username)
-    console.log(password)
     try {
       const data = await login(username, password);
         console.log(data)
@@ -111,10 +106,6 @@ export default function SignInSide() {
                 id="password"
                 autoComplete="current-password"
               />
-              <FormControlLabel
-                control={<Checkbox value="remember" color="primary" />}
-                label="Remember me"
-              />
               <Button
                 type="submit"
                 fullWidth
@@ -124,11 +115,6 @@ export default function SignInSide() {
                 Sign In
               </Button>
               <Grid container>
-                <Grid item xs>
-                  <Link href="#" variant="body2">
-                    Forgot password?
-                  </Link>
-                </Grid>
                 <Grid item>
                   <Link
                     component={RouterLink}

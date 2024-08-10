@@ -185,7 +185,7 @@
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "CustomerServiceCampaign\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAqwDIAAAAQAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwDIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T19:28:09.128Z",
               "EditorCaption": ""
@@ -198,7 +198,7 @@
               "RelativeDocumentMoniker": "CustomerServiceCampaign\\Middleware\\ApiKeyMiddleware.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\Middleware\\ApiKeyMiddleware.cs",
               "RelativeToolTip": "CustomerServiceCampaign\\Middleware\\ApiKeyMiddleware.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAlwCAAAAAIAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwCAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T17:40:56.512Z",
               "EditorCaption": ""
@@ -211,7 +211,7 @@
               "RelativeDocumentMoniker": "Application\\Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Application\\Services\\CustomerService.cs",
               "RelativeToolTip": "Application\\Services\\CustomerService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAvwB0AAAAMAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwB0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-07T19:31:32.76Z",
               "EditorCaption": ""
@@ -224,9 +224,10 @@
               "RelativeDocumentMoniker": "Infrastructure\\ExternalServices\\UserExternalService.cs",
               "ToolTip": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\Infrastructure\\ExternalServices\\UserExternalService.cs",
               "RelativeToolTip": "Infrastructure\\ExternalServices\\UserExternalService.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAlwFYAAAA6AAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCQAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T19:12:24.751Z"
+              "WhenOpened": "2024-08-07T19:12:24.751Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
