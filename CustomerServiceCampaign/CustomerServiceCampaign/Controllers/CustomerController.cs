@@ -18,7 +18,7 @@ namespace CustomerServiceCampaign.Controllers
             _userExternalService = userExternalService;
         }
 
-        [HttpGet]
+        [HttpGet("GetCustomers")]
         public async Task<IActionResult> GetCustomers()
         {
             var customers = await _customerService.GetCustomersAsync();

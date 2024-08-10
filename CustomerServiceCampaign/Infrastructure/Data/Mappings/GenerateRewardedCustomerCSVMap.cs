@@ -20,10 +20,10 @@ namespace Infrastructure.Data.Mappings
             Map(m => m.AgentLastName).Name("Agent firstname");
             Map(m => m.AgentLastName).Name("Agent lastname");
 
-            Map(m => m.Name).Name("Name");
-            Map(m => m.SSN).Name("SSN");
-            Map(m => m.DateOfBirth).Name("Birth date");
-            Map(m => m.Age).Name("Age");
+            Map(m => m.Name).Name("Customer name");
+            Map(m => m.SSN).Name("Customer SSN");
+            Map(m => m.DateOfBirth).Name("Customer birth date");
+            Map(m => m.Age).Name("Customer age");
             Map(m => m.IsRewarded).Name("Is rewarded");
 
             Map(m => m.Home.Street).Name("Home street");

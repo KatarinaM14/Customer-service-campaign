@@ -1,8 +1,10 @@
-﻿using Domain.Interfaces.ExternalServices;
+﻿using Domain.Interfaces;
+using Domain.Interfaces.ExternalServices;
 using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
 using Domain.Models.BaseModels;
 using Infrastructure.Data.HelperClasses;
+using Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,15 +15,13 @@ namespace Application.Services
 {
     public class RewardService : IRewardService
     {
-        private readonly IRewardRepository _rewardRepository;
-        private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly ICustomerCampaignExternalService _customerCampaignExternalService;
         private readonly CSVHelper _csvHelper = new CSVHelper();
 
-        public RewardService(IRewardRepository rewardRepository, IUserRepository userRepository, ICustomerCampaignExternalService customerCampaignExternalService) 
+        public RewardService(IUnitOfWork unitOfWork, ICustomerCampaignExternalService customerCampaignExternalService)
         {
-            _rewardRepository = rewardRepository;
-            _userRepository = userRepository;
+            _unitOfWork = unitOfWork;
             _customerCampaignExternalService = customerCampaignExternalService;
         }
 
@@ -29,16 +29,15 @@ namespace Application.Services
         {
             try
             {
-
                 var today = DateTime.Today;
 
-                var user = await _userRepository.GetUserByIdAsync(userId);
+                var user = await _unitOfWork.Users.GetUserByIdAsync(userId);
                 if (user == null)
                 {
                     throw new ArgumentException("User not found.");
                 }
 
-                var rewardCount = await _rewardRepository.GetRewardsByUserAsync(userId, today);
+                var rewardCount = await _unitOfWork.Rewards.GetRewardsByUserAsync(userId, today);
 
                 if (rewardCount.Count() >= 5)
                 {
@@ -55,7 +54,8 @@ namespace Application.Services
                     RewardingDate = DateTime.Now
                 };
 
-                await _rewardRepository.AddRewardAsync(reward);
+                await _unitOfWork.Rewards.AddRewardAsync(reward);
+                await _unitOfWork.SaveChangesAsync();
 
                 await _customerCampaignExternalService.NotifyCustomerCampaignExternalServiceAsync(customerId);
 
@@ -71,11 +71,9 @@ namespace Application.Services
         {
             try
             {
-                var rewards = await _rewardRepository.GetAllRewardsAsync();
-
+                var rewards = await _unitOfWork.Rewards.GetAllRewardsAsync();
 
                 var fileBytes = await _csvHelper.GenerateCsvAsync((List<Reward>)rewards);
-
 
                 return fileBytes;
             }

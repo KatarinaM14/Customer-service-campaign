@@ -1,8 +1,10 @@
 ﻿using Application.DTOs;
 using Azure;
+using Domain.Interfaces;
 using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
 using Domain.Models.BaseModels;
+using Infrastructure.Repositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using SharedProject.DTOs;
@@ -18,11 +20,12 @@ namespace Application.Services
 {
     public class AuthService : IAuthService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IConfiguration _configuration;
-        public AuthService(IUserRepository userRepository, IConfiguration configuration) 
+       
+        public AuthService(IUnitOfWork unitOfWork, IConfiguration configuration)
         {
-            _userRepository = userRepository;
+            _unitOfWork = unitOfWork;
             _configuration = configuration;
         }
 
@@ -30,7 +33,7 @@ namespace Application.Services
         {
             try
             {
-                var user = await _userRepository.GetUserByUsernameAsync(registerUserDto.Username);
+                var user = await _unitOfWork.Users.GetUserByUsernameAsync(registerUserDto.Username);
 
                 if (user != null)
                 {
@@ -51,7 +54,8 @@ namespace Application.Services
                     Role = userRole
                 };
 
-                await _userRepository.AddUserAsync(registerUser);
+                await _unitOfWork.Users.AddUserAsync(registerUser);
+                await _unitOfWork.SaveChangesAsync();
 
                 var token = GenerateToken(registerUser);
 
@@ -81,7 +85,7 @@ namespace Application.Services
         {
             try
             {
-                var user = await _userRepository.GetUserByUsernameAsync(loginUserDto.Username);
+                var user = await _unitOfWork.Users.GetUserByUsernameAsync(loginUserDto.Username);
 
                 if (user == null)
                 {
@@ -96,7 +100,8 @@ namespace Application.Services
                 }
 
                 user.IsLoggedIn = true;
-                await _userRepository.UpdateUserAsync(user);
+                await _unitOfWork.Users.UpdateUserAsync(user);
+                await _unitOfWork.SaveChangesAsync();
 
                 var token = GenerateToken(user);
 
@@ -126,14 +131,15 @@ namespace Application.Services
         {
             try
             {
-                var user = await _userRepository.GetUserByIdAsync(userId);
+                var user = await _unitOfWork.Users.GetUserByIdAsync(userId);
                 if (user == null)
                 {
                     throw new ApplicationException("User not found.");
                 }
 
                 user.IsLoggedIn = false;
-                await _userRepository.UpdateUserAsync(user);
+                await _unitOfWork.Users.UpdateUserAsync(user);
+                await _unitOfWork.SaveChangesAsync();
             }
             catch (Exception ex)
             {

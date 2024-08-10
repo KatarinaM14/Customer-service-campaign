@@ -1,6 +1,7 @@
 using Application.Services;
 using CustomerServiceCampaign.Middleware;
 using CustomerServiceCampaign.Services;
+using Domain.Interfaces;
 using Domain.Interfaces.ExternalServices;
 using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
@@ -10,6 +11,7 @@ using Infrastructure.ExternalServices;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,9 +20,35 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+{
+
+    c.AddSecurityDefinition("ApiKey", new OpenApiSecurityScheme
+    {
+        Type = SecuritySchemeType.ApiKey,
+        Name = "X-Integration-Api-Key",
+        In = ParameterLocation.Header,
+        Description = "Enter your API key in the header."
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "ApiKey"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
 
 //Dependency Injection
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IUserExternalService, UserExternalService>();
 builder.Services.AddScoped<IPurchaseReportService, PurchaseReportService>();

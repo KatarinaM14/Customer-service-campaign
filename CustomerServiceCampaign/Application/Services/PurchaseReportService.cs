@@ -1,7 +1,9 @@
-﻿using Domain.Interfaces.Repositories;
+﻿using Domain.Interfaces;
+using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
 using Domain.Models.BaseModels;
 using Infrastructure.Data.HelperClasses;
+using Infrastructure.Repositories;
 using SharedProject.DTOs;
 using System;
 using System.Collections.Generic;
@@ -15,12 +17,12 @@ namespace Application.Services
 {
     public class PurchaseReportService : IPurchaseReportService
     {
-        private readonly ICustomerRepository _customerRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly CSVHelper _csvHelper = new CSVHelper();
 
-        public PurchaseReportService(ICustomerRepository customerRepository)
+        public PurchaseReportService(IUnitOfWork unitOfWork)
         {
-            _customerRepository = customerRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task ProcessCsvReportAsync(string csvFilePath)
@@ -31,13 +33,14 @@ namespace Application.Services
 
                 foreach (var customer in customers)
                 {
-                    var existingCustomer = await _customerRepository.GetCustomerByExternalIdAsync(customer.ExternalId);
+                    var existingCustomer = await _unitOfWork.Customers.GetCustomerByExternalIdAsync(customer.ExternalId);
 
                     if (existingCustomer == null)
                     {
                         customer.AddedInMerge = true;
                         customer.IsRewarded = true;
-                        await _customerRepository.AddCustomerAsync(customer);
+                        await _unitOfWork.Customers.AddCustomerAsync(customer);
+                        await _unitOfWork.SaveChangesAsync();
                     }
                 }
             }
@@ -57,7 +60,7 @@ namespace Application.Services
 
                 foreach (var reward in rewards)
                 {
-                    var existingCustomer = await _customerRepository.GetCustomerByExternalIdAsync(reward.CustomerId);
+                    var existingCustomer = await _unitOfWork.Customers.GetCustomerByExternalIdAsync(reward.CustomerId);
 
                     if (existingCustomer != null)
                     {
@@ -97,7 +100,7 @@ namespace Application.Services
         {
             try
             {
-                var customers = await _customerRepository.GetAllCustomersAsync();
+                var customers = await _unitOfWork.Customers.GetAllCustomersAsync();
 
                 var fileBytes = await _csvHelper.GenerateCsvAsync((List<Customer>)customers);
 

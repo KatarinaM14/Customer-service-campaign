@@ -40,7 +40,6 @@ namespace Infrastructure.Repositories
         public async Task AddRewardAsync(Reward reward)
         {
             _context.Rewards.Add(reward);
-            await _context.SaveChangesAsync();
         }
     }
 }

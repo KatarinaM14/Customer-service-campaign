@@ -1,4 +1,5 @@
 using Application.Services;
+using Domain.Interfaces;
 using Domain.Interfaces.ExternalServices;
 using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
@@ -72,6 +73,7 @@ builder.Services.AddCors(options => {
 });
 
 //Dependency Injection
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IRewardService, RewardService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();

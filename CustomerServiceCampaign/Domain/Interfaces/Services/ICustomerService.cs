@@ -13,5 +13,6 @@ namespace Domain.Interfaces.Services
         Task<IEnumerable<Customer>> GetCustomersAsync();
         Task<Customer> GetCustomerByIdAsync(int id);
         Task RewardCustomerAsync(CustomerDTO customerDTO);
+        Task DeleteCustomerAsync(int id);
     }
 }

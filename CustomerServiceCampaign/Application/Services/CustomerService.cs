@@ -1,6 +1,8 @@
-﻿using Domain.Interfaces.Repositories;
+﻿using Domain.Interfaces;
+using Domain.Interfaces.Repositories;
 using Domain.Interfaces.Services;
 using Domain.Models.BaseModels;
+using Infrastructure.Repositories;
 using SharedProject.DTOs;
 using System.Data;
 
@@ -8,20 +10,21 @@ namespace CustomerServiceCampaign.Services
 {
     public class CustomerService : ICustomerService
     {
-        private readonly ICustomerRepository _customerRepository;
-        public CustomerService(ICustomerRepository customerRepository) 
+        private readonly IUnitOfWork _unitOfWork;
+
+        public CustomerService(IUnitOfWork unitOfWork)
         {
-            _customerRepository = customerRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<IEnumerable<Customer>> GetCustomersAsync()
         {
-            return await _customerRepository.GetAllCustomersAsync();
+            return await _unitOfWork.Customers.GetAllCustomersAsync();
         }
 
         public async Task<Customer> GetCustomerByIdAsync(int id)
         {
-            return await _customerRepository.GetCustomerByIdAsync(id);
+            return await _unitOfWork.Customers.GetCustomerByIdAsync(id);
         }
 
         public async Task RewardCustomerAsync(CustomerDTO customerDTO)
@@ -53,23 +56,31 @@ namespace CustomerServiceCampaign.Services
                     ExternalId = customerDTO.ExternalId
                 };
 
-                var selectedCustomer = await _customerRepository.GetCustomerByExternalIdAsync(customer.ExternalId);
+                var selectedCustomer = await _unitOfWork.Customers.GetCustomerByExternalIdAsync(customer.ExternalId);
 
                 if (selectedCustomer != null)
                 {
                     selectedCustomer.IsRewarded = true;
-                    await _customerRepository.UpdateCustomerAsync(selectedCustomer);
+                    await _unitOfWork.Customers.UpdateCustomerAsync(selectedCustomer);
+                    await _unitOfWork.SaveChangesAsync();
                 }
                 else
                 {
                     customer.IsRewarded = true;
-                    await _customerRepository.AddCustomerAsync(customer);
+                    await _unitOfWork.Customers.AddCustomerAsync(customer);
+                    await _unitOfWork.SaveChangesAsync();
                 }
             }
             catch (Exception ex)
             {
                 throw new Exception(ex.Message);
             }
+        }
+
+        public async Task DeleteCustomerAsync(int id)
+        {
+            await _unitOfWork.Customers.DeleteCustomerAsync(id);
+            await _unitOfWork.SaveChangesAsync();
         }
     }
 }
