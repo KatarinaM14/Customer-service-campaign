@@ -48,7 +48,6 @@ export default function SignInSide() {
  
     try {
       const data = await login(username, password);
-        console.log(data)
       setSuccessMessage('Logged in successfully! Redirecting to homepage');
       setSuccessOpen(true);
 

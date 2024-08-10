@@ -41,14 +41,9 @@ export default function SignUp() {
     const firstName = data.get('firstName');
     const lastName = data.get('lastName');
 
-    console.log(username)
-    console.log(password)
-    
-    console.log(firstName)
-    console.log(lastName)
     try { 
       const data = await register(firstName, lastName, username, password)
-      console.log(data)
+
       setSuccessMessage('Registered successfully! Redirecting to homepage');
       setSuccessOpen(true);
       const token = data.token;

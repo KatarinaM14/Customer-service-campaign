@@ -17,7 +17,7 @@ namespace Infrastructure.Data.Mappings
             Map(m => m.CustomerId).Name("Customer id");
             Map(m => m.RewardingDate).Name("Rewarding date");
 
-            Map(m => m.AgentLastName).Name("Agent firstname");
+            Map(m => m.AgentFirstName).Name("Agent firstname");
             Map(m => m.AgentLastName).Name("Agent lastname");
 
             Map(m => m.Name).Name("Customer name");

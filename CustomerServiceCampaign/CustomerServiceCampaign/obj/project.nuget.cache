@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9KyZf3GyMG8=",
+  "dgSpecHash": "l8xzJL8H5uc=",
   "success": true,
   "projectFilePath": "C:\\Users\\katar\\OneDrive\\Desktop\\ZADATAK ZA POSAO\\CustomerServiceCampaign\\CustomerServiceCampaign\\CustomerServiceCampaign.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\katar\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\katar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\katar\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\katar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512",
     "C:\\Users\\katar\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\katar\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\katar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

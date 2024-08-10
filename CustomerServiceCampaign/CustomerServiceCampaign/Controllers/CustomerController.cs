@@ -31,7 +31,7 @@ namespace CustomerServiceCampaign.Controllers
             var customer = await _customerService.GetCustomerByIdAsync(id);
             if (customer == null)
             {
-                return NotFound();
+                return NotFound("User not found.");
             }
             return Ok(customer);
         }
