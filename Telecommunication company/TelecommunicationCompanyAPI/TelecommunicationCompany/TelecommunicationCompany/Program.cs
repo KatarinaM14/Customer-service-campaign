@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -73,19 +74,10 @@ builder.Services.AddCors(options => {
 });
 
 //Dependency Injection
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IRewardService, RewardService>();
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
-builder.Services.AddScoped<ICustomerCampaignExternalService, CustomerCampaignExternalService>();
-builder.Services.AddScoped<IRewardRepository, RewardRepository>();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddInfrastructure(builder.Configuration); // From Infrastructure layer
+builder.Services.AddApplication(); // From Application layer
 
 builder.Services.Configure<CustomerServiceCampaignUrlModel>(builder.Configuration.GetSection("CustomerServiceCampaignAPIUrl"));
-
-//Database setup
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TelecommunicationCompanyDB")));
 
 //External service
 builder.Services.AddHttpClient<ICustomerCampaignExternalService, CustomerCampaignExternalService>(client =>

@@ -12,6 +12,7 @@ using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
+using Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -48,17 +49,10 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 //Dependency Injection
-builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<ICustomerService, CustomerService>();
-builder.Services.AddScoped<IUserExternalService, UserExternalService>();
-builder.Services.AddScoped<IPurchaseReportService, PurchaseReportService>();
-builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddInfrastructure(builder.Configuration); // From Infrastructure layer
+builder.Services.AddApplication(); // From Application layer
 
 builder.Services.Configure<SOAPDemoUrlModel>(builder.Configuration.GetSection("SOAPDemoAppUrl"));
-
-//Database setup
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CustomerServiceCampaignDB")));
 
 //External service
 builder.Services.AddHttpClient<IUserExternalService, UserExternalService>();
