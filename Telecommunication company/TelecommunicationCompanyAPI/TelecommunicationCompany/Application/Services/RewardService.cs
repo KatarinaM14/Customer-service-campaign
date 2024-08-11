@@ -54,10 +54,10 @@ namespace Application.Services
                     RewardingDate = DateTime.Now
                 };
 
+                await _customerCampaignExternalService.NotifyCustomerCampaignExternalServiceAsync(customerId);
+
                 await _unitOfWork.Rewards.AddRewardAsync(reward);
                 await _unitOfWork.SaveChangesAsync();
-
-                await _customerCampaignExternalService.NotifyCustomerCampaignExternalServiceAsync(customerId);
 
                 return true;
             }
